@@ -7,6 +7,13 @@
     <!-- 引入外部 CSS 樣式表 -->
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="a-cat-gazes.jpg" type="image/jpg" />
+
+    <!-- 1. 頭部與導覽 -->
+    <h1>Rachel的個人介紹</h1>
+    <nav>
+      <a href="#section1">關於我</a> | <a href="#section2">清單</a> |
+      <a href="#section3">料理</a>
+    </nav>
   </head>
   <body>
     <header id="main-header">
@@ -18,7 +25,7 @@
     <!-- 三個不同的段落，都使用名為 "highlight" 的 class -->
     <p class="highlight1">這是第一段重要文字。</p>
     <p class="highlight">這是第二段重要文字。</p>
-    <div class="highlight">這是一個重要區塊。</div>
+    <div id="section1" class="highlight">這是一個重要區塊。</div>
 
     <h2>關於我</h2>
     <p>大家好，我的學號是114122843</p>
@@ -56,7 +63,7 @@
 
     <p>這句話激勵了無數正在面對挑戰的人。</p>
 
-    <h3>買菜清單（順序沒關係，用 ul）</h3>
+    <h3 id="section2">買菜清單（順序沒關係，用 ul）</h3>
     <ul>
       <li>蘋果</li>
       <li>香蕉</li>
@@ -110,17 +117,8 @@
 
     <p><small>※ 本網站保留最終活動解釋權。</small></p>
 
-    <!-- 1. 頭部與導覽 -->
-    <header>
-      <h1>美味食譜網</h1>
-      <nav>
-        <a href="#">首頁</a> | <a href="#">中式料理</a> |
-        <a href="#">西式甜點</a>
-      </nav>
-    </header>
-
     <!-- 2. 主要內容 -->
-    <main>
+    <main id="section3">
       <!-- 獨立的一篇文章 -->
       <article>
         <hgroup>
