@@ -18,3 +18,11 @@ h3 {
   background-color: blue; /* 只有這個唯一的標頭會變藍色背景 */
   color: rgb(255, 255, 255);
 }
+
+blockquote {
+  color: gray;
+}
+
+.box {
+  display: inline;
+}
